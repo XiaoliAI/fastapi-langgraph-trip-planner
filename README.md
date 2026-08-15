@@ -1,6 +1,6 @@
 # 智能旅行规划助手
 
-一个结合 LangChain、LangGraph、RAG、真实地图 POI 和 Vue 前端的智能旅行规划应用。
+一个结合 LangChain、LangGraph、RAG、真实地图 POI 和 Vue 前端的智能旅行规划应用，是对Hellow Agent旅行项目的二次开发。
 
 用户输入城市、日期、交通方式、住宿偏好和旅行偏好后，系统可以生成多日旅行计划，并展示景点、地图、天气、餐饮和酒店候选。
 
