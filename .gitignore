@@ -1,0 +1,49 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+build/
+dist/
+*.egg-info/
+
+# Python tooling and test output
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.tmp/
+.pytest-tmp/
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
