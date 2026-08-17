@@ -9,6 +9,12 @@
   <em>图1：智能旅行规划首页</em>
 </div>
 
+<div align="center">
+  <img src="./images/天气.png" alt="天气界面" width="80%">
+  <br>
+  <em>图2：智能旅行规划天气</em>
+</div>
+
 ## 功能特性
 
 ### 旅行规划
@@ -22,8 +28,9 @@
 <div align="center">
   <img src="./images/地图.png" alt="地图界面" width="80%">
   <br>
-  <em>图1：智能旅行规划地图模块</em>
+  <em>图3：智能旅行规划地图模块</em>
 </div>
+
 ### 真实地图数据
 
 - 高德 POI 景点搜索。
@@ -32,6 +39,17 @@
 - 高德天气查询。
 - 地址地理编码。
 - 景点、餐馆和酒店距离计算。
+<div align="center">
+  <img src="./images/第一天景区推荐.png" alt="景区1界面" width="80%">
+  <br>
+  <em>图4：智能旅行规划景区模块</em>
+</div>
+
+<div align="center">
+  <img src="./images/第三天景区推荐.png" alt="景区3界面" width="80%">
+  <br>
+  <em>图5：智能旅行规划景区模块</em>
+</div>
 
 ### 景点和图片
 
@@ -40,6 +58,11 @@
 - 支持点击放大和左右切换。
 - 景点评点摘要、打卡点和游玩建议。
 - 景点图片按 `category=scenic` 分类获取。
+ <div align="center">
+  <img src="./images/第一天打卡点和景区餐饮推荐.png" alt="景区1打卡点界面" width="80%">
+  <br>
+  <em>图6：智能旅行规划景区打卡点模块</em>
+</div> 
 
 ### 餐饮和酒店
 
@@ -51,6 +74,17 @@
 - 酒店模块独立展示最多四个候选。
 - 酒店按到规划景点的平均距离排序。
 - 酒店图片按 `category=hotel` 分类获取。
+<div align="center">
+  <img src="./images/第三天打卡点和景区餐饮推荐.png" alt="餐饮界面" width="80%">
+  <br>
+  <em>图7：智能旅行规划餐饮推荐模块</em>
+</div>
+
+<div align="center">
+  <img src="./images/酒店.png" alt="酒店界面" width="80%">
+  <br>
+  <em>图8：智能旅行规划酒店模块</em>
+</div>
 
 ### RAG 和会话编辑
 
@@ -60,6 +94,11 @@
 - 支持旅行 session。
 - 支持 Chat 局部修改。
 - 支持确认后整体重新规划。
+<div align="center">
+  <img src="./images/chat.png" alt="地图界面" width="80%">
+  <br>
+  <em>图9：智能旅行规划chat模块</em>
+</div>
 
 ## 技术栈
 
