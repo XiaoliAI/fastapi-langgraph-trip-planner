@@ -30,8 +30,8 @@ backend\.env
 ```text
 AMAP_API_KEY=你的高德地图Key
 LLM_API_KEY=你的LLM API Key
-LLM_BASE_URL=https://api-inference.modelscope.cn/v1
-LLM_MODEL_ID=Qwen/Qwen3.5-35B-A3B
+LLM_BASE_URL=你的模型请求地址
+LLM_MODEL_ID=你的模型ID
 JINA_API_KEY=你的Jina API Key
 JINA_EMBEDDING_MODEL=jina-embeddings-v4
 JINA_EMBEDDING_TASK_QUERY=retrieval.query
@@ -241,39 +241,3 @@ curl.exe https://api.jina.ai/v1/embeddings
 3. 后端日志是否出现 `POST /api/trip/plan HTTP/1.1 200 OK`
 4. 浏览器控制台 Network 是否有 500、404 或超时请求
 
-### 天气显示为 0
-
-天气数据由后端从高德天气结果中确定性解析后写入 `plan.weather_info`。如果前端仍显示 0，优先检查后端返回 JSON 里的 `weather_info` 是否为空。
-
-### Git 状态异常
-
-如果 `git status` 提示不是 Git 仓库，说明当前目录的 `.git` 不是有效仓库。它不影响项目运行。
-
-## 11. 可清理目录
-
-这些目录不影响项目运行，可按需要清理：
-
-- `.tmp`
-- `.pytest-tmp`
-- `.pytest_cache`
-- `backend\.pytest_cache`
-- `backend\app\**\__pycache__`
-- `tests\__pycache__`
-- `frontend\dist`
-
-这些目录建议保留：
-
-- `.venv`
-- `backend`
-- `frontend`
-- `tests`
-- `docs`
-- `README.md`
-- `RUNBOOK.md`
-
-`frontend\node_modules` 可以删除，但删除后需要重新执行：
-
-```powershell
-cd frontend
-npm install
-```
