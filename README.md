@@ -110,6 +110,7 @@
 - LangChain
 - LangGraph
 - 高德地图 API / MCP
+- Rag
 - Jina Embedding API
 
 ### 前端
@@ -120,6 +121,7 @@
 - Ant Design Vue
 - Axios
 - 高德地图 JavaScript API
+  
 
 ## 项目结构
 
