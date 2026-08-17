@@ -3,7 +3,7 @@
 一个结合 LangChain、LangGraph、RAG、真实地图 POI 和 Vue 前端的智能旅行规划应用，是对Hellow Agent旅行项目的二次开发。
 
 用户输入城市、日期、交通方式、住宿偏好和旅行偏好后，系统可以生成多日旅行计划，并展示景点、地图、天气、餐饮和酒店候选。
-images/首页.png
+[images/首页.png](https://github.com/XiaoliAI/fastapi-langgraph-trip-planner/blob/6b428c14aaab4f477aeb9cb1e9a7b4bfa5bc792f/images/%E9%A6%96%E9%A1%B5.png)
 
 ## 功能特性
 
