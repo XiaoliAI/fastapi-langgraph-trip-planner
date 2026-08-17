@@ -75,7 +75,7 @@
 - 酒店按到规划景点的平均距离排序。
 - 酒店图片按 `category=hotel` 分类获取。
 <div align="center">
-  <img src="./images/第三天打卡点和景区餐饮推荐.png" alt="餐饮界面" width="80%">
+  <img src="./images/第三天打卡点和餐饮推荐.png" alt="餐饮界面" width="80%">
   <br>
   <em>图7：智能旅行规划餐饮推荐模块</em>
 </div>
