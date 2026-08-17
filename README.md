@@ -176,8 +176,8 @@ cd backend
 AMAP_API_KEY=你的高德地图Key
 
 LLM_API_KEY=你的LLM_API_Key
-LLM_BASE_URL=https://api-inference.modelscope.cn/v1
-LLM_MODEL_ID=Qwen/Qwen3.5-35B-A3B
+LLM_BASE_URL=你的模型请求地址
+LLM_MODEL_ID=你的模型ID
 
 JINA_API_KEY=你的Jina_API_Key
 ```
@@ -190,7 +190,6 @@ UNSPLASH_ACCESS_KEY=你的Unsplash_Key
 UNSPLASH_SECRET_KEY=你的Unsplash_Secret
 ```
 
-不要把真实 `.env` 文件提交到 GitHub。
 
 ## 安装后端依赖
 
@@ -305,27 +304,7 @@ backend/data/travel_knowledge/
 - Session 当前主要用于本地运行和前后端联调。
 - 餐饮、景点和酒店的 LLM 摘要均保留本地兜底。
 
-## 发布注意事项
 
-以下文件和目录不应提交到 GitHub：
-
-- `.env` 和 `.env.*`
-- `.venv/`
-- `backend/.venv/`
-- `frontend/node_modules/`
-- `frontend/dist/`
-- `.pytest_cache/`
-- `__pycache__/`
-- `.idea/`
-- 本地日志和临时目录
-
-发布前请确认：
-
-1. 没有将 API Key 写入源码、README 或测试输出。
-2. 没有提交真实 `.env` 文件。
-3. 已执行后端测试或至少完成核心接口验证。
-4. 已执行 `npm run build`。
-5. README 中的启动命令与当前目录结构一致。
 
 ## 项目文档
 
@@ -333,6 +312,4 @@ backend/data/travel_knowledge/
 - [运行手册](RUNBOOK.md)
 - [接口文档](http://localhost:8000/docs)（启动后端后访问）
 
-## 许可证
 
-当前许可证信息请以仓库最终发布版本中的 LICENSE 文件为准。发布到 GitHub 前建议补充明确的许可证文件。
